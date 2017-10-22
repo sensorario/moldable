@@ -1,4 +1,5 @@
-# javanile/moldable
+# javanile/moldable [![SensioLabsInsight](https://insight.sensiolabs.com/projects/84ccbc03-57cc-4afb-9171-eefa7052cd77/mini.png)](https://insight.sensiolabs.com/projects/84ccbc03-57cc-4afb-9171-eefa7052cd77)
+
 [![StyleCI](https://styleci.io/repos/43810715/shield?branch=master)](https://styleci.io/repos/43810715)
 [![Code Climate](https://codeclimate.com/github/javanile-bot/moldable/badges/gpa.svg)](https://codeclimate.com/github/javanile-bot/moldable)
 [![Build Status](https://travis-ci.org/javanile-bot/moldable.svg?branch=master)](https://travis-ci.org/javanile-bot/moldable)
@@ -99,6 +100,12 @@ $db->apply([
     ],
 ]);
 ```
+## Setup for testing
+To test the library, follow these steps:
+ 1. Run a local MySQL database
+ 2. Copy file `phpunit.xml.dist` to `phpunit.xml`
+ 3. Update `phpunit.xml` with database connection paramiters
+ 4. Run `./vendor/bin/phpunit` from project directory
 
 ## Talk about
  - https://medium.com/@billmike1994/getting-started-with-moldable-an-orm-for-continuous-migration-d4be845b7c65
